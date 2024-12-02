@@ -12,6 +12,35 @@ public class StudentsRegister {
 
     //
 
+
+    // StudentsRegister Methods
+
+    public StudentsRegister() {
+
+        this.enrolledStudents = new Object[this.maxStudents];
+
+    }
+
+    public void addStudent(Object Student) {
+
+        this.enrolledStudents[this.currentStudents] = Student;
+
+        this.currentStudents++;
+
+    }
+
+    public void getEnrolledStudents() {
+
+        for (int i = 0; i < this.currentStudents; i++ ) {
+
+            System.out.println(enrolledStudents[i]);
+
+        };
+
+    }
+
+    //
+
 }
 
 //

@@ -12,7 +12,7 @@ public class Student {
     //
 
 
-    // Student methods
+    // Student Methods
 
     public Student(String firstName, String lastName, int age) {
 

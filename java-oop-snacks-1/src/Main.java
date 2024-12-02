@@ -3,22 +3,22 @@ public class Main {
 
         // Student Instances
         
-        Student studente1 = new Student("John", "Smith", 24);
+        Student student1 = new Student("John", "Smith", 24);
 
-        Student studente2 = new Student("Mark", "Rober", 38);
+        Student student2 = new Student("Mark", "Rober", 38);
 
-        Student studente3 = new Student("William", "Park", 19);
+        Student student3 = new Student("William", "Park", 19);
 
         //
 
 
         // Student Methods Call
 
-        System.out.println(studente1.getInfo());
+        System.out.println(student1.getInfo());
 
-        System.out.println(studente2.getInfo());
+        System.out.println(student2.getInfo());
 
-        System.out.println(studente3.getInfo());
+        System.out.println(student3.getInfo());
 
         //
 
@@ -81,6 +81,27 @@ public class Main {
         // Readability Divider
 
         System.out.println("- - - - -");
+
+        //
+        
+
+        // StudentsRegister Instance
+
+        StudentsRegister studentsRegister1 = new StudentsRegister();
+
+        //
+
+
+        // StudentsRegister Methods
+
+        studentsRegister1.addStudent(student1);
+
+        studentsRegister1.addStudent(student2);
+
+        studentsRegister1.addStudent(student3);
+
+
+        studentsRegister1.getEnrolledStudents();
 
         //
 
